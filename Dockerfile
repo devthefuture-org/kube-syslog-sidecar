@@ -1,6 +1,4 @@
-FROM alpine:3.6
-
-MAINTAINER Arve Knudsen <arve.knudsen@gmail.com>
+FROM alpine:latest
 
 RUN apk update && apk add --no-cache syslog-ng
 
