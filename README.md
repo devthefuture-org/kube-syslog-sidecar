@@ -10,7 +10,7 @@ One use of this is to make `haproxy` container friendly, by logging to stdout.
 
 ---
 
-This fork was made, because the original image was not built for linux/arm64, causing problems in my Raspberry Pi K3s cluster running [haproxy-ingress](https://github.com/jcmoraisjr/haproxy-ingress) with login enabled.
+This fork was made, because the original image was not built for linux/arm64, causing problems in my Raspberry Pi K3s cluster running [haproxy-ingress](https://github.com/jcmoraisjr/haproxy-ingress) with sys-logs enabled.
 
 The haproxy-ingress pod could not start because the log sidecar failed with ```syslog-ng: exec format error```
 
