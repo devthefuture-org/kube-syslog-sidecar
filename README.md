@@ -16,4 +16,4 @@ The haproxy-ingress pod could not start because the log sidecar failed with ```s
 
 GitHub Actions will automatically build images for ```linux/arm64, linux/amd64, linux/arm/v7```. 
 
-You can then use ```ghcr.io/crisu1710/kube-syslog-sidecar:master```
+You can then use ```ghcr.io/crisu1710/kube-syslog-sidecar:main```
