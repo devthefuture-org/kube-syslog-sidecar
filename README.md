@@ -8,6 +8,7 @@ from the main container to stdout so Kubernetes can pick up the logs.
 
 One use of this is to make `haproxy` container friendly, by logging to stdout.
 
+
 ---
 
 This fork was made, because the original image was not built for linux/arm64, causing problems in my Raspberry Pi K3s cluster running [haproxy-ingress](https://github.com/jcmoraisjr/haproxy-ingress) with sys-logs enabled.
