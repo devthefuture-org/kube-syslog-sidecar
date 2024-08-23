@@ -1,5 +1,7 @@
 # kube-syslog-sidecar
 
+Fork of [Crisu1710/kube-syslog-sidecar](https://github.com/Crisu1710/kube-syslog-sidecar) to provide rootless.
+
 Fork of [whereisaaron/docker-syslog-ng-sidecar](https://github.com/whereisaaron/kube-syslog-sidecar) to provide automated builds and minor tweaks.
 
 Dockerfile for syslog-ng to run in a sidecar container logging to stdout. The purpose of this
